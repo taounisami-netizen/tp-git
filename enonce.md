@@ -145,7 +145,7 @@ Branche :
 `feature/footer`
 
 Créer le footer avec :
-fait moi seulement 
+
 - Nom du site
 - Copyright
 - Trois liens
