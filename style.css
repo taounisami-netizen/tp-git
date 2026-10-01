@@ -1,3 +1,16 @@
+/* ===== Styles généraux ===== */
+:root {
+  --color-primary: #3b2fc9;
+  --color-bg: #f7f7fb;
+  --color-text: #1f2333;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
 /* ===== Header ===== */
 .site-header {
   display: flex;
