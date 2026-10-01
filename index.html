@@ -7,8 +7,48 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header></header>
+  <header class="site-header">
+  <a href="#" class="site-header__brand">
+    <span class="site-header__logo" aria-hidden="true">C4</span>
+    <span class="site-header__name">Canal 4</span>
+  </a>
+
+  <nav class="site-nav" aria-label="Navigation principale">
+    <ul class="site-nav__list">
+      <li><a class="site-nav__link" href="#accueil">Accueil</a></li>
+      <li><a class="site-nav__link" href="#services">Services</a></li>
+      <li><a class="site-nav__link" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
   <main></main>
+  <header></header>
+  <main>
+    <section id="services" class="services" aria-labelledby="services-title">
+      <div class="services__intro">
+        <p class="services__eyebrow">Nos expertises</p>
+        <h1 id="services-title">Des solutions pour faire grandir vos projets</h1>
+        <p>Un accompagnement concret, de la première idée à sa mise en ligne.</p>
+      </div>
+      <div class="services__grid">
+        <article class="service-card">
+          <span class="service-card__number" aria-hidden="true">01</span>
+          <h2>Conseil stratégique</h2>
+          <p>Clarifiez vos objectifs et définissez une feuille de route adaptée à votre activité.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-card__number" aria-hidden="true">02</span>
+          <h2>Création de sites web</h2>
+          <p>Donnez vie à un site rapide, accessible et pensé pour vos visiteurs.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-card__number" aria-hidden="true">03</span>
+          <h2>Accompagnement digital</h2>
+          <p>Faites évoluer vos outils et gagnez en autonomie à chaque étape.</p>
+        </article>
+      </div>
+    </section>
+  </main>
   <footer></footer>
 </body>
 </html>
